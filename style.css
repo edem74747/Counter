@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  max-height: 100svh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+h1 {
+  color: crimson;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.btn:active {
+  background-color: rgb(0, 0, 51);
+  color: white;
+}
+
+#value {
+  font-size: 3rem;
+}
